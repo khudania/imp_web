@@ -58,37 +58,27 @@
             <!-- End Of Navbar -->
         
              <!-- main -->
-        <section id="announcement">
+        <section id="edit_home_services">
                 <div class="container">
-                    <h3 style="text-align:center">Announcement</h3>
-                   <a href="add_announcement.html" style="margin-bottom:10px; float:right" class="btn btn-warning"> Add New Announcement </a>
+                    <h3 style="text-align:center">Edit Home Services</h3>
                     <div class="row">
-                        <div class="col-md-12">
-                               
+                        <div class="col-md-6 col-md-push-3">
                             <div class="panel panel-default" style="padding:20px">
-                                    <table class="table table-striped table-bordered table-responsive">
-                                            <tr>
-                                                <th>Title</th>
-                                                <th>Date</th>
-                                                <th>Description</th>
-                                                <th>Edit/Delete</th>
-                                            </tr>
-                                            <tr>
-                                                <td>LSHTM approves Sangath as a partner on its CSRD scheme</td>
-                                                <td>December 3, 2018</td>
-                                                <td>London School of Hygiene and Tropical Medicine’s (LSHTM) Senate Research Degree
-                                                        committee has approved Sangath re-joining as a partner on its Capacity Strengthening
-                                                        Research Degrees (CSRD) scheme. Being a partner on the CSRD scheme will allow any
-                                                        member of staff</td>
-                                                <td>
-                                                    <a style="margin:2px" href="edit_announcement.html" class="btn btn-success">Edit</a>
-                                                    <a style="margin:2px" href="#" class="btn btn-danger">Delete</a>
-                                                </td>
-                                            </tr>
-                                          </table>
-                                          
+                                <form>
+                                  
+                                    <div class="form-group">
+                                        <label for="title">Add Title</label>
+                                        <input type="text" class="form-control" id="title" placeholder="Add Title">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                            <label for="desc">Add Description</label>
+                                            <textarea class="form-control" id="desc" placeholder="Add Title"></textarea>
+                                        </div>
+
+                                    <button type="submit" class="btn btn-success">Save Changes</button>
+                                </form>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
